@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: #f0ae82;
+  color: #4e1b0c;
+}
+
+header {
+  min-height: 70vh;
+  padding: 3rem 1.5rem 2rem;
+  text-align: center;
+  color: #f0ae82; 
+  border-bottom: 1px solid #4e1b0c;
+  background: #1a0a08 url("images/final.mask") center / cover no-repeat;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  color: #f0ae82;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7);
+}
+
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.25rem;
+  margin-top: 2.5rem;
+  background-color: #e6a274;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.page-links a {
+  color: #4e1b0c;
+  text-decoration: none;
+}
+
+.page-links a:hover,
+.page-links a:focus-visible {
+  color: #8f3f27;
+}
