@@ -26,7 +26,6 @@ h1 {
   letter-spacing: 0.04em;
   line-height: 1.15;
   color: #f0ae82;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7);
 }
 
 main {
@@ -43,6 +42,49 @@ h2 {
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1.2;
+}
+
+.statement {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.statement p + p {
+  margin-top: 1.25rem;
+}
+
+.development-process p + p {
+  margin-top: 1.5rem;
+}
+
+.process-media p {
+  font-size: 0.95rem;
+}
+
+.development-process h3:not(:first-of-type) {
+  margin-top: 6rem;
+}
+
+.process-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem auto;
+}
+
+.process-media img,
+.process-media video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .page-links {
