@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Development Process — I See You, You See Me</title>
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=14">
 </head>
-
 <body>
-  <header>
-    <h1>I See You, You See Me</h1>
+  <header class="site-header">
+    <img class="header-photo" src="images/header.jpg?v=2" alt="">
+    <h1><a href="index.html">I See You, You See Me</a></h1>
   </header>
   <main>
-    <div class="development-process">
-      <p>
-      <h3>Stage 1: The test stage</h3>
-      </p>
-      <figure class="process-media">
-        <img src="images/ledteststrand.jpg"
-          alt="Six colored LEDs with jumper wires, arranged in two groups on a white surface.">
-        <p>
-          My original test strands to get used to soldering.
-        </p>
-        <video controls playsinline preload="metadata">
-          <source src="images/papertest.mp4" type="video/mp4">
-
-          <source src="images/papertest.MOV" type="video/quicktime">
-        </video>
-        <p>My first papercraft, here I am figuring out which papercraft method to use and how it works.</p>
-        <img src="images/teststrandboard.jpg"
-          alt="A breadboard powered by a 9-volt battery, with blue, green, and red LEDs lit.">
-        <p>My first successful test strand using a breadboard and battery.</p>
-      </figure>
-      <p>
-      <h3>Stage 2: Making the half mask</h3>
-      </p>
-      <figure class="process-media">
-        <img src="images/halfmask.jpg"
-          alt="A cardboard half-mask base with a breadboard, battery, and toggle switch wired together.">
-        <p>When I first started my mask, I was under the impression it would only be for the half mask portion of the
-          assignment. However, I ended up really liking the design and decided to make it into my finished mask.</p>
-      </figure>
-      <p>
-      <h3>Stage 3: The final product</h3>
-      </p>
-      <figure class="process-media">
-        <img src="images/finishmask.jpg"
-          alt="A finished kitsune mask with red and yellow LEDs lit.">
-        <p>My finished mask.</p>
-        <video controls playsinline preload="metadata">
-          <source src="images/maskvideo.mp4" type="video/mp4">
-        </video>
-      </figure>
-    </div>
-    <nav class="page-links" aria-label="Sections">
-      <a href="index.html">Main Page</a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="artist-statement.html">Artist Statement</a>
+      <a href="development-process.html" aria-current="page">Development Process</a>
+      <a href="the-result.html">The Result</a>
     </nav>
+    <div class="development-process">
+      <section class="stage">
+        <h2>Stage 1: The test stage</h2>
+        <figure class="process-media">
+          <img src="images/ledteststrand.jpg" alt="Six colored LEDs with jumper wires, arranged in two groups on a white surface.">
+          <figcaption>My original test strands to get used to soldering.</figcaption>
+          <video controls playsinline preload="metadata">
+            <source src="images/papertest.mp4" type="video/mp4">
+            <source src="images/papertest.MOV" type="video/quicktime">
+          </video>
+          <figcaption>My first papercraft, here I am figuring out which papercraft method to use and how it works.</figcaption>
+          <img src="images/teststrandboard.jpg" alt="A breadboard powered by a 9-volt battery, with blue, green, and red LEDs lit.">
+          <figcaption>My first successful test strand using a breadboard and battery.</figcaption>
+        </figure>
+      </section>
+      <section class="stage">
+        <h2>Stage 2: Making the half mask</h2>
+        <figure class="process-media">
+          <img src="images/halfmask.jpg" alt="A cardboard half-mask base with a breadboard, battery, and toggle switch wired together.">
+          <figcaption>When I first started my mask, I was under the impression it would only be for the half mask portion of the assignment. However, I ended up really liking the design and decided to make it into my finished mask.</figcaption>
+        </figure>
+      </section>
+      <section class="stage">
+        <h2>Stage 3: The final product</h2>
+        <figure class="process-media">
+          <img src="images/finishmask.jpg" alt="A finished kitsune mask with red and yellow LEDs lit.">
+          <figcaption>My finished mask.</figcaption>
+          <video controls playsinline preload="metadata">
+            <source src="images/maskvideo.mp4" type="video/mp4">
+          </video>
+        </figure>
+      </section>
+    </div>
   </main>
 </body>
-
 </html>
