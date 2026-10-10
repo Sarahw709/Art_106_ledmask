@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background: #f0ae82;
+  background: #fad0b4;
   color: #4e1b0c;
 }
 
@@ -15,7 +15,7 @@ header {
   min-height: 70vh;
   padding: 3rem 1.5rem 2rem;
   text-align: center;
-  color: #f0ae82; 
+  color: #fad0b4; 
   border-bottom: 1px solid #4e1b0c;
   background: #1a0a08 url("images/final.mask") center / cover no-repeat;
 }
@@ -25,7 +25,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1.15;
-  color: #f0ae82;
+  color: #fedac1;
 }
 
 main {
@@ -93,7 +93,7 @@ h2 {
   align-items: center;
   gap: 5.25rem;
   margin-top: 2.5rem;
-  background-color: #e6a274;
+  background-color: #efbd9c;
   width: 100vw;
   margin-left: calc(50% - 50vw);
   padding-bottom: 4rem;
@@ -108,4 +108,15 @@ h2 {
 .page-links a:hover,
 .page-links a:focus-visible {
   color: #8f3f27;
+}
+
+.home-links {
+  background-color: transparent;
+}
+
+.home-links a {
+  display: block;
+  width: 100%;
+  background-color: #efbd9c;
+  padding: 2.25rem 1.5rem;
 }
